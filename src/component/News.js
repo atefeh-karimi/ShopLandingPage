@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { ThemeProvider } from "styled-components";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { content } from "../ContentNews";
+import { news as data } from "../Content";
 import SetCard from "./SetCard";
 
 function News() {
@@ -32,7 +32,7 @@ function News() {
           </div>
           <div>
             <Slider {...settings}>
-              {content.map((c) => {
+              {data.map((c) => {
                 return (
                   <SetCard
                     key={c.id}

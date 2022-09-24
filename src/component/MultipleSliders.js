@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import { ThemeProvider } from "styled-components";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { content } from "../Content";
 import SetCard from "./SetCard";

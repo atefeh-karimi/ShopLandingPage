@@ -1,5 +1,5 @@
 import React from "react";
-import { content } from "../NavContent";
+import { NavContent as data } from "../Content";
 
 function Nav() {
   return (
@@ -8,7 +8,7 @@ function Nav() {
       className="container-fluid"
     >
       <ul className="nav justify-content-center">
-        {content.map((c) => {
+        {data.map((c) => {
           return (
             <li key={c.id} className="nav-item">
               <a href="./" className="nav-link" style={{ color: "white" }}>

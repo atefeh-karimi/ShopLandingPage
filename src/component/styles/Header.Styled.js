@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const HeaderStyled = styled.header`
   max-width: 100%;
   padding: 8px 0;
-  /* background-color: green; */
 
   img {
     width: 80px;
@@ -21,7 +20,7 @@ export const HeaderStyled = styled.header`
       no-repeat 13px center;
 
     ::placeholder {
-      color: black;
+      color: gray;
       font-size: 14px;
     }
   }

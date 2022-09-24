@@ -1,7 +1,7 @@
 import React from "react";
 import { Logo } from "../component/styles/Logo";
 import List from "./List";
-import { link1 } from "../LinkOfLists";
+import { linksOfFooter as link1 } from "../Content";
 import { FooterStyed } from "../component/styles/Footer.Styed";
 import SocialIcons from "./SocialIcons";
 import { FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";

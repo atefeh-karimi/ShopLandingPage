@@ -25,7 +25,6 @@ function Card({ title, oldPrice, newPrice, url }) {
           </div>
         </CardOverley>
       </CardImage>
-      {/* <span>22:54:00</span> */}
     </CardStyled>
   );
 }
