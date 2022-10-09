@@ -20,8 +20,8 @@ function Footer() {
           </div>
         </div>
         <div style={{ borderRadius: "20px" }} className="d-flex bg-white p-3">
-          <img src="/image/F1" alt="" />
-          <img src="/image/F2" alt="" />
+          <img src="./image/F1" alt="" />
+          <img src="./image/F2" alt="" />
         </div>
       </div>
       <hr />
