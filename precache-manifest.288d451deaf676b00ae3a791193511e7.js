@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8e15049c40c961cadfb9",
+    "revision": "10e78eaca76b200bb9ef",
     "url": "/ShopLandingPage/static/css/main.c2ca7916.chunk.css"
   },
   {
-    "revision": "8e15049c40c961cadfb9",
-    "url": "/ShopLandingPage/static/js/main.8e15049c.chunk.js"
+    "revision": "10e78eaca76b200bb9ef",
+    "url": "/ShopLandingPage/static/js/main.10e78eac.chunk.js"
   },
   {
     "revision": "88cd8b651f2587c42175",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/ShopLandingPage/static/media/IRANSansX-Thin.0d74920d.woff"
   },
   {
-    "revision": "f84c48ce48a47538e1015bda819e3cdd",
+    "revision": "580884db89b0d229e3070ea070595ea6",
     "url": "/ShopLandingPage/index.html"
   }
 ];

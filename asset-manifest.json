@@ -1,7 +1,7 @@
 {
   "main.css": "/ShopLandingPage/static/css/main.c2ca7916.chunk.css",
-  "main.js": "/ShopLandingPage/static/js/main.8e15049c.chunk.js",
-  "main.js.map": "/ShopLandingPage/static/js/main.8e15049c.chunk.js.map",
+  "main.js": "/ShopLandingPage/static/js/main.10e78eac.chunk.js",
+  "main.js.map": "/ShopLandingPage/static/js/main.10e78eac.chunk.js.map",
   "static/css/1.dd458358.chunk.css": "/ShopLandingPage/static/css/1.dd458358.chunk.css",
   "static/js/1.88cd8b65.chunk.js": "/ShopLandingPage/static/js/1.88cd8b65.chunk.js",
   "static/js/1.88cd8b65.chunk.js.map": "/ShopLandingPage/static/js/1.88cd8b65.chunk.js.map",
@@ -17,6 +17,6 @@
   "static/css/main.c2ca7916.chunk.css.map": "/ShopLandingPage/static/css/main.c2ca7916.chunk.css.map",
   "static/css/1.dd458358.chunk.css.map": "/ShopLandingPage/static/css/1.dd458358.chunk.css.map",
   "index.html": "/ShopLandingPage/index.html",
-  "precache-manifest.cefebea584be0f6d890470b8691eb61d.js": "/ShopLandingPage/precache-manifest.cefebea584be0f6d890470b8691eb61d.js",
+  "precache-manifest.288d451deaf676b00ae3a791193511e7.js": "/ShopLandingPage/precache-manifest.288d451deaf676b00ae3a791193511e7.js",
   "service-worker.js": "/ShopLandingPage/service-worker.js"
 }
