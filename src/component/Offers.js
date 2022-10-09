@@ -6,7 +6,7 @@ import { content } from "../Content";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Offers.css";
+import "./styles/Offers.css";
 
 function Offers() {
   const sliderRef = useRef();
@@ -45,15 +45,7 @@ function Offers() {
         <ThemeProvider theme={theme}>
           <Slider ref={sliderRef} {...settings}>
             {content.map((c) => {
-              return (
-                <Card
-                  key={c.id}
-                  title={c.title}
-                  newPrice={c.newPrice}
-                  oldPrice={c.oldPrice}
-                  url={c.img}
-                />
-              );
+              return <Card key={c.id} {...c} />;
             })}
           </Slider>
         </ThemeProvider>

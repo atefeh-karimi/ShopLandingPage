@@ -2,6 +2,15 @@ import React from "react";
 import { BgSlider, SliderContainer } from "./styles/Slider.Styled";
 import Slide from "./Slide";
 
+function Slider() {
+  return (
+    <BgSlider>
+      <SliderContainer>
+        <Slide slides={slidesData} />
+      </SliderContainer>
+    </BgSlider>
+  );
+}
 const slidesData = [
   {
     id: 0,
@@ -16,15 +25,4 @@ const slidesData = [
     body: "طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد.",
   },
 ];
-
-function Slider() {
-  return (
-    <BgSlider>
-      <SliderContainer>
-        <Slide slides={slidesData} />
-      </SliderContainer>
-    </BgSlider>
-  );
-}
-
 export default Slider;

@@ -40,7 +40,7 @@ function Insta() {
           <div>
             <Slider {...settings}>
               {content.map((c) => {
-                return <SetCard key={c.id} url={c.img} />;
+                return <SetCard key={c.id} img={c.img} />;
               })}
             </Slider>
           </div>

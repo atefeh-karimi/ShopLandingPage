@@ -11,25 +11,6 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
-:root {
-  --color-primary: #6c63ff;
-  --color-success: #00bf8e;
-  --color-warning: #f7c94b;
-  --color-danger: #f75842;
-  --color-danger-variant: rgba(247, 88, 66, 0.4);
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 07);
-  --color-black: #000;
-  --color-bg: #1f2641;
-  --color-bg1: #2e3267;
-  --color-bg2: #424890;
-
-  --container-width-lg: 80%;
-  --container-width-md: 90%;
-  --container-width-sm: 94%;
-
-  --transition: all 400ms ease;
-}
 
   body {
   font-family: 'iransansRegular';
@@ -41,13 +22,6 @@ a {
    color: var(--color-white);
 }
 
-
-
-.container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
-  font-family: 'IrenSansRegular';
-}
 
 .cursor-pointer{
   cursor: pointer;
@@ -80,32 +54,4 @@ img {
   display: block;
   object-fit: cover;
 }
-
-
-/* =====================MEDIA QUERIES(TABLET)==================== */
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-  h1 {
-    font-size: 35px;
-  }
-  h2 {
-    font-size: 27px;
-  }
-  h3 {
-    font-size: 22px;
-  }
-  h4 {
-    font-size: 19px;
-  }}
-
-/* =====================MEDIA QUERIES(PHONE)==================== */
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  }
-
 `;

@@ -62,17 +62,7 @@ const MultipleSliders = ({ title, id }) => {
         <div>
           <Slider ref={sliderRef} {...settings}>
             {content.map((c, index) => {
-              return (
-                <SetCard
-                  key={index}
-                  url={c.img}
-                  title={c.title}
-                  newPrice={c.newPrice}
-                  oldPrice={c.oldPrice}
-                  fw="bold"
-                  fs="15px"
-                />
-              );
+              return <SetCard key={index} {...c} fw="bold" fs="15px" />;
             })}
           </Slider>
         </div>

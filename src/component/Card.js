@@ -6,11 +6,11 @@ import {
   CardTitle,
 } from "./styles/Card.Style";
 
-function Card({ title, oldPrice, newPrice, url }) {
+function Card({ title, oldPrice, newPrice, img }) {
   return (
     <CardStyled>
       <CardImage>
-        <img src={url} alt="" />
+        <img src={img} alt="" />
         <CardOverley>
           <CardTitle>{title}</CardTitle>
           <div

@@ -2,7 +2,7 @@ import { CardImage, CardStyled } from "./styles/Card.Style";
 import React from "react";
 
 function SetCard({
-  url,
+  img,
   title,
   newPrice,
   oldPrice,
@@ -23,7 +23,7 @@ function SetCard({
       <CardStyled>
         <CardImage>
           {" "}
-          <img src={url} alt="" />
+          <img src={img} alt="" />
         </CardImage>
       </CardStyled>
       <p style={titleStyle}>{title}</p>

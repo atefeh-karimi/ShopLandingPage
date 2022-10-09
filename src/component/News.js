@@ -36,10 +36,7 @@ function News() {
                 return (
                   <SetCard
                     key={c.id}
-                    url={c.img}
-                    title={c.title}
-                    body={c.body}
-                    type={c.type}
+                    {...c}
                     fw="bold"
                     fs="16px"
                     padding="0 24px"

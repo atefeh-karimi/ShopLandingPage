@@ -18,7 +18,7 @@ function ProductGroup() {
       <div className="d-flex justify-content-around mt-3 align-content-end flex-wrap">
         <ThemeProvider theme={theme}>
           {content.map((c) => {
-            return <Card key={c.id} title={c.title} url={c.img} />;
+            return <Card key={c.id} title={c.title} img={c.img} />;
           })}
         </ThemeProvider>
       </div>
